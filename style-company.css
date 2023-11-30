@@ -1,0 +1,136 @@
+body{width: 1440px;}
+box{width: 1440px;height: 300px;background-color: white;}
+*,
+*:before,
+*:after{box-sizing: inherit;}
+.class1{text-align: center;margin-bottom: -10px;}
+header{background-color: #3f3480}
+header{position: relative}
+header{z-index: 2;}
+nav{text-align: center;}
+nav{position: relative;}
+nav{z-index: 10;}
+ul{display: table;margin: 0 auto;padding: 0;width: 100%;text-align: center;background-color: #3f3480;}
+ul li{display: table-cell;max-width: 50px;}
+ul li a{display: block;width: 100%;padding: 20px 0;text-decoration: none;color: #FFFFFF;font-family: "didot"; font-weight: bold;}
+ul li.current a{background-color: #000000;}
+ul li:hover{background-image: none;background-color: #957cb0;}
+.class2 img{display: block;width: 100%;height: auto;}
+.class3{text-align: center;margin-top: 30px;font-size: 25px;font-family: "Hiragino Mincho ProN";color: #525153;margin-bottom: 20px;}
+.class4{text-align: center;margin-top: 30px;font-size: 25px;font-family: "Hiragino Mincho ProN";color: #525153;margin-bottom: 20px;}
+.class5{width: 1440px;margin-top: 30px;}
+.class5{position: relative;position: absolute;left: 60px;}
+.class5{display: flex;}
+.class6{flex-basis: 100%;}
+.image-wrap{position: relative;overflow: hidden;padding-top: 60%;margin: 10px 5px;}
+.image-wrap img{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 100%;height: 100%;}
+.class7{text-align: center;margin-top: 280px;}
+.class8{text-align: center;margin-top: 50px;}
+.class8 img{width: 900px; height: 900px;}
+.class9{text-align: center;padding-bottom: 0;}
+.class10{text-align: center;font-size: 30px;font-family: "Didot";color: #525153;margin-bottom: 20px;}
+.class11{text-align: center;margin-bottom: 30px;font-size: 30px;font-family: "Didot";color: #525153;margin-bottom: 5px;}
+.class12{display: inline-block;width: 25%; background-color: #d8cfe2;border: 3px  solid;border-color: #FFFFFF; box-shadow: 0  0  0 6px #d8cfe2; padding-bottom:20px;padding-top: 120px;font-size: 25px;font-family: "Didot";color: #525153;margin-bottom: 20px;}
+.class13{text-align: center;margin-bottom: 20px;font-size: 30px;font-family: "Didot";color: #525153;margin-bottom: 5px;font-size: 20px;font-family: "Didot";color: #525153;margin-bottom: 20px;}
+.class14{display: inline-block;width: 25%; background-color: #d8cfe2;border: 3px  solid;border-color: #FFFFFF; box-shadow: 0  0  0 6px #d8cfe2; padding-bottom:20px;padding-top: 120px;}
+.class15{text-align: center;margin-top: 30px;font-size: 15px;font-family: "Hiragino Mincho ProN";color: #525153;}
+.class16{text-align: center;margin-bottom: 20px;font-size: 15px;font-family: "Hiragino Mincho ProN";color: #525153;margin-bottom: 40px;}
+.class17{position: relative;position: absolute; top:4070px;left:690px;}
+.class18{position: relative;position: absolute; top:3855px;left:685px;}
+footer{display: flex;background-color: #3f3480;height: 100px;text-align: right;padding-right: 20px; justify-content: center;align-items: center;}
+li{background-color: #3f3480;}
+.copyright{width: 90%;}
+footer{font-size: 20px;font-family: "Didot";color: #525153;}
+.copyright{font-size: 15px;font-family: "Didot";color: #FFFFFF;}
+.class12 a {color:#525153;text-decoration:none;}
+
+@media (min-width: 769px) {a[href*="tel:"] {pointer-events: none;cursor: default;text-decoration: none;}}
+
+@media screen and (max-width:1440px) {body{width: 1440px;}}
+@media screen and (max-width:1440px) {box{width: 1440px;}}
+@media screen and (max-width:1440px) {header{width: 1440px;}}
+
+@media screen and (max-width:1440px) {.classA6{display: none;}
+@media screen and (max-width:1440px) {.classB6{display: none;}}
+@media screen and (max-width:1440px) {.classC6{display: none;}}
+
+@media screen and (max-width:768px) {body{width: 768px;}}
+@media screen and (max-width:768px) {box{width: 768px;}}
+@media screen and (max-width:768px) {header{width: 768px;}}
+@media screen and (max-width:768px) {.class3{font-size: 20px;margin-top: 20px;margin-bottom: 10px;}}
+@media screen and (max-width:768px) {.class4{font-size: 20px;margin-top: 20px;margin-bottom: 10px;}}
+@media screen and (max-width:768px) {.class5 {width: 768px;}}
+@media screen and (max-width:768px) {.class5 img{width: 200px;  height: 100px;}}
+@media screen and (max-width:768px) {.class8 img{width: 600px; height: 600px;}}
+@media screen and (max-width:768px) {.class9 img{width:550px;height: 700px;margin-top: -50px;}}
+@media screen and (max-width:768px) {.class10{font-size: 20px;}}
+@media screen and (max-width:768px) {.class12{width: 30%;padding-top: 80px; font-size: 15px}}
+@media screen and (max-width:768px) {.class14{width: 30%;padding-top: 80px; font-size: 12px;}}
+@media screen and (max-width:768px) {.class15{font-size: 10px;margin-bottom: 5px;}}
+@media screen and (max-width:768px) {.class16{font-size: 10px;}}
+@media screen and (max-width:768px) {.copyright{font-size: 12px;}}
+@media screen and (max-width:768px) {ul li a{font-size: 12px;}}
+@media screen and (max-width:768px){.class17{position: relative; position: absolute;top: 2670px;left: 370px;}}
+@media screen and (max-width:768px){.class17 img{width: 40px;height: 35px;}}
+@media screen and (max-width:768px){.class18{position: relative; position: absolute;top: 2815px;left: 370px; }}
+@media screen and (max-width:768px){.class18 img{width: 50px;height: 50px;}}
+
+@media screen and (max-width:480px) {body{width: 480px;}}
+@media screen and (max-width:480px) {box{width: 480px;}}
+@media screen and (max-width:480px) {header{width: 480px;}}
+@media screen and (max-width:480px) {.class3{font-size: 10px;margin-top: 10px;margin-bottom: 10px;}}
+@media screen and (max-width:480px) {.class4{font-size: 10px;margin-top: 10px;margin-bottom: 10px;}}
+    
+@media screen and (max-width:480px) {.class5{display: none;}
+@media screen and (max-width:480px) {.classA6{display: block; text-align: center;}
+@media screen and (max-width:480px) {.classB6{display: block; text-align: center;}
+@media screen and (max-width:480px) {.classC6{display: block; text-align: center;}
+    
+@media screen and (max-width:480px) {.class7{margin-top: 10px;text-align: center;}
+    
+@media screen and (max-width:480px) {.class7 video{width: 90%;height: 90%;padding-right: 15px;}}
+@media screen and (max-width:480px) {.class8 img{width:350px;height: 350px;margin-top: -50px;}}
+@media screen and (max-width:480px) {.class9 img{width:340px;height: 450px;margin-top: -50px;}}
+@media screen and (max-width:480px) {.class10{font-size: 15px;}}
+@media screen and (max-width:480px) {.class12{width: 40%;padding-top: 80px; font-size: 15px}}
+@media screen and (max-width:480px) {.class14{width: 40%;padding-top: 80px; font-size: 12px;}}
+@media screen and (max-width:480px) {.class15{font-size: 10px;margin-bottom: 5px;}}
+@media screen and (max-width:480px) {.class16{font-size: 10px;}}
+@media screen and (max-width:480px){.class17{position: relative; position: absolute;top: 2060px;left: 225px;}}
+@media screen and (max-width:480px){.class17 img{width: 40px;height: 35px;}}
+@media screen and (max-width:480px){.class18{position: relative; position: absolute;top: 1900px;left: 225px; }}
+@media screen and (max-width:480px){.class18 img{width: 50px;height: 50px;}}
+@media screen and (max-width:480px) {.copyright{font-size: 7px;}}
+@media screen and (max-width:480px) {ul li a{font-size: 8px;}}
+
+
+@media screen and (max-width:400px) {.class8 img{width:350px;height: 350px;margin-top: -50px;}}
+@media screen and (max-width:400px) {.class9 img{width:340px;height: 450px;margin-top: -50px;}}
+@media screen and (max-width:400px) {.class10{font-size: 15px;}}
+@media screen and (max-width:400px) {.class12{width: 50%;padding-top: 80px; font-size: 15px}}
+@media screen and (max-width:400px) {.class14{width: 50%;padding-top: 80px; font-size: 12px;}}
+@media screen and (max-width:400px) {.class15{font-size: 10px;margin-bottom: 5px;}}
+@media screen and (max-width:400px) {.class16{font-size: 10px;}}
+@media screen and (max-width:400px) {.copyright{font-size: 6px;}}
+@media screen and (max-width:400px) {ul li a{font-size: 8px;}}
+@media screen and (max-width:400px){.class17{position: relative; position: absolute;top: 1870px;left: 190px;}}
+@media screen and (max-width:400px){.class17 img{width: 40px;height: 35px;}}
+@media screen and (max-width:400px){.class18{position: relative; position: absolute;top: 1710px;left: 180px; }}
+@media screen and (max-width:400px){.class18 img{width: 50px;height: 50px;}}
+
+@media screen and (max-width:400px) {body{width: 400px;}}
+@media screen and (max-width:400px) {box{width: 400px;}}
+@media screen and (max-width:400px) {header{width: 400px;}}
+@media screen and (max-width:400px) {.class1 img{width: 100px; height: 65px;}}
+@media screen and (max-width:400px) {.class3{font-size: 10px;margin-top: 10px;margin-bottom: 10px;}}
+@media screen and (max-width:400px) {.class4{font-size: 10px;margin-top: 10px;margin-bottom: 10px;}}
+@media screen and (max-width:400px) {.class5{display: none;}
+@media screen and (max-width:400px) {.classA6{display: block; text-align: center;}
+@media screen and (max-width:400px) {.classB6{display: block; text-align: center;}
+@media screen and (max-width:400px) {.classC6{display: block; text-align: center;}
+    
+@media screen and (max-width:400px) {.class7{margin-top: 10px;text-align: center;}
+    
+@media screen and (max-width:400px) {.class7 video{width: 90%;height: 90%;padding-right: 15px;}}
+
+
